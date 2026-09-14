@@ -4,7 +4,7 @@ try:
     numero_inicial = float(input("Digite o número inicial: ").replace(",", "."))
     numero_final = float(input("Digite o número final: ").replace(",", "."))
     incremento = float(
-        input("Digite de quantos em quantos números: ").replace(",", ".")
+        input("Digite o valor do incremento: ").replace(",", ".")
     )
 
     if incremento <= 0:
